@@ -1,5 +1,5 @@
 var pageIndex = -1;
-var pageLength = 3;
+var pageLength = 4;
 
 function getDom(id, bool) {
 	return bool ? document.getElementsByClassName(id) : document.getElementById(id);
